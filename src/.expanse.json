@@ -8,6 +8,78 @@
     "items": []
   },
   "objects": {
+    "292ac6a4-739f-42fa-aef0-505ff6774670": {
+      "components": {
+        "15a45e28-8e66-4773-875a-9e46b05a95f3": {
+          "id": "15a45e28-8e66-4773-875a-9e46b05a95f3",
+          "name": "inre-chroma",
+          "parameters": {
+            "color": "#000000",
+            "enabled": true,
+            "feather": 1.5,
+            "similarity": 0.28,
+            "smoothness": 0.14,
+            "spill": 0.65
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.469,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
+      },
+      "id": "292ac6a4-739f-42fa-aef0-505ff6774670",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Textura_animada_para_realidad_au__a794f7b4_1080p.mp4"
+        },
+        "inreChroma": {
+          "enabled": true,
+          "color": "#000000",
+          "similarity": 0.28,
+          "smoothness": 0.14,
+          "feather": 1.5,
+          "spill": 0.65
+        }
+      },
+      "name": "Textura_animada_para_realidad_au__a794f7b4_1080p",
+      "order": 8.5,
+      "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+      "position": [
+        0.251,
+        0.127,
+        0
+      ],
+      "rotation": [
+        -0.5829877949964568,
+        -0.016865958614300274,
+        0.019373337514912402,
+        0.8120747774181412
+      ],
+      "scale": [
+        0.706,
+        0.706,
+        0.706
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
     "3a292826-0947-4793-8ede-79b958562847": {
       "components": {
         "46ff6db7-e0e3-4b23-84c7-9e13e4534c5e": {
@@ -174,20 +246,20 @@
       "order": 0.5979859480902956,
       "parentId": "dc3e549f-de41-4781-9393-ff196db71ebf",
       "position": [
-        -0.082,
-        0.05,
-        0.23
+        0.196,
+        -0.041,
+        0.231
       ],
       "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865475
+        0.1328743430471034,
+        -0.45389110412500894,
+        -0.09833498324620632,
+        0.8755898044323892
       ],
       "scale": [
-        9.586,
-        9.586,
-        9.586
+        6.344,
+        6.344,
+        6.344
       ]
     },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
@@ -291,78 +363,6 @@
         1,
         1
       ]
-    },
-    "9ef5db20-3e9c-4ba7-b1d9-cc1aba588db0": {
-      "components": {
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.682,
-            "demora": 0.08,
-            "esGltf": false,
-            "esTextura": true,
-            "esVideo": true
-          }
-        },
-        "c257d9c1-6b1c-4760-9aa4-b192f2534b25": {
-          "id": "c257d9c1-6b1c-4760-9aa4-b192f2534b25",
-          "name": "inre-chroma",
-          "parameters": {
-            "color": "#000000",
-            "enabled": true,
-            "feather": 1.5,
-            "similarity": 0.28,
-            "smoothness": 0.14,
-            "spill": 0.65
-          }
-        }
-      },
-      "geometry": {
-        "type": "plane",
-        "width": 0.5625,
-        "height": 1
-      },
-      "id": "9ef5db20-3e9c-4ba7-b1d9-cc1aba588db0",
-      "material": {
-        "type": "video",
-        "color": "#ffffff",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/Textura_animada_para_realidad_au__a794f7b4_1080p.mp4"
-        },
-        "inreChroma": {
-          "enabled": true,
-          "color": "#000000",
-          "similarity": 0.28,
-          "smoothness": 0.14,
-          "feather": 1.5,
-          "spill": 0.65
-        }
-      },
-      "name": "Textura_animada_para_realidad_au__a794f7b4_1080p",
-      "order": 2.5979859480902956,
-      "parentId": "dc3e549f-de41-4781-9393-ff196db71ebf",
-      "position": [
-        0,
-        0.28800000000000003,
-        0.3160000000000001
-      ],
-      "rotation": [
-        0.49709074098762324,
-        0.5028924290784021,
-        -0.5028924290784021,
-        0.49709074098762324
-      ],
-      "scale": [
-        1.027,
-        1.027,
-        1.027
-      ],
-      "videoControls": {
-        "loop": true,
-        "paused": false
-      }
     },
     "ac969131-2a39-4a22-ae74-ad5b7975d571": {
       "camera": {
