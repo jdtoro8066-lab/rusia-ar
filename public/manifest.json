@@ -1,6 +1,6 @@
 {
-  "name": "Rusia AR",
-  "short_name": "Rusia AR",
+  "name": "rusiaa",
+  "short_name": "rusiaa",
   "description": "Experiencia de realidad aumentada creada con Zence Inverse Reality.",
   "start_url": "./",
   "scope": "./",
