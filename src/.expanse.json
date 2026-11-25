@@ -141,7 +141,7 @@
           "id": "9d669151-620e-407b-ae2e-2e27cf5f1ff7",
           "name": "inre-chroma",
           "parameters": {
-            "color": "#00b140",
+            "color": "#000000",
             "enabled": true,
             "feather": 1.5,
             "similarity": 0.28,
@@ -176,7 +176,7 @@
         },
         "inreChroma": {
           "enabled": true,
-          "color": "#00b140",
+          "color": "#000000",
           "similarity": 0.28,
           "smoothness": 0.14,
           "feather": 1.5,
