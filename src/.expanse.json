@@ -27,7 +27,7 @@
           "name": "inre-aparicion",
           "parameters": {
             "cubo": 0.469,
-            "demora": 0,
+            "demora": 0.08,
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
@@ -57,18 +57,18 @@
         }
       },
       "name": "Textura_animada_para_realidad_au__a794f7b4_1080p",
-      "order": 8.5,
-      "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+      "order": 1.5979859480902956,
+      "parentId": "dc3e549f-de41-4781-9393-ff196db71ebf",
       "position": [
         0.251,
-        0.127,
-        0
+        0,
+        0.127
       ],
       "rotation": [
-        -0.5829877949964568,
-        -0.016865958614300274,
-        0.019373337514912402,
-        0.8120747774181412
+        0.16198895875193647,
+        -0.025625052038393686,
+        0.001772984623626907,
+        0.9864582051339112
       ],
       "scale": [
         0.706,
