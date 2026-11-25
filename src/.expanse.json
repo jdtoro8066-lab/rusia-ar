@@ -137,18 +137,6 @@
     },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
       "components": {
-        "9d669151-620e-407b-ae2e-2e27cf5f1ff7": {
-          "id": "9d669151-620e-407b-ae2e-2e27cf5f1ff7",
-          "name": "inre-chroma",
-          "parameters": {
-            "color": "#00b140",
-            "enabled": true,
-            "feather": 1.5,
-            "similarity": 0.23,
-            "smoothness": 0.14,
-            "spill": 0.65
-          }
-        },
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
@@ -158,6 +146,18 @@
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
+          }
+        },
+        "f6d99e41-1ef1-4394-8c5b-a85ff3353543": {
+          "id": "f6d99e41-1ef1-4394-8c5b-a85ff3353543",
+          "name": "inre-chroma",
+          "parameters": {
+            "color": "#00b140",
+            "enabled": true,
+            "feather": 1.5,
+            "similarity": 0.28,
+            "smoothness": 0.14,
+            "spill": 0.65
           }
         }
       },
@@ -177,7 +177,7 @@
         "inreChroma": {
           "enabled": true,
           "color": "#00b140",
-          "similarity": 0.23,
+          "similarity": 0.28,
           "smoothness": 0.14,
           "feather": 1.5,
           "spill": 0.65
