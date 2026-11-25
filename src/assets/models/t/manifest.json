@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "modelId": "t",
+  "name": "t",
+  "sourceFormat": "usd",
+  "bounds": {
+    "min": [
+      -0.954522430896759,
+      -0.17648936808109283,
+      -1.0635903180400419e-7
+    ],
+    "max": [
+      0.9759750366210938,
+      0.35637736320495605,
+      1.8913034200668335
+    ],
+    "center": [
+      0.010726302862167358,
+      0.08994399756193161,
+      0.9456516568539008
+    ],
+    "radius": 1.3772977577919776
+  },
+  "analysis": {
+    "vertices": 19044,
+    "triangles": 20054,
+    "materials": 1,
+    "submeshes": 1,
+    "fileBytes": 934100,
+    "hasUvs": true,
+    "hasNormals": true,
+    "hasTangents": false,
+    "hasVertexColors": false,
+    "hasVariedVertexColors": false,
+    "textureCount": 0,
+    "textureMaxResolution": 0,
+    "textureTotalBytes": 0,
+    "dimensions": [
+      1.9304974675178528,
+      0.5328667312860489,
+      1.8913035264258653
+    ],
+    "boundingBox": {
+      "min": [
+        -0.954522430896759,
+        -0.17648936808109283,
+        -1.0635903180400419e-7
+      ],
+      "max": [
+        0.9759750366210938,
+        0.35637736320495605,
+        1.8913034200668335
+      ]
+    },
+    "hasRigging": true,
+    "hasAnimations": true,
+    "hasMorphTargets": true,
+    "estimatedRamBytes": 2241212,
+    "estimatedGpuBytes": 1307112,
+    "issues": [
+      {
+        "code": "skinned-mesh",
+        "severity": "info",
+        "message": "Contiene esqueleto/skinning: se aplica simplificación conservadora para proteger las deformaciones."
+      },
+      {
+        "code": "morph-targets",
+        "severity": "info",
+        "message": "Contiene morph targets (blendshapes): se preserva la topología compatible o se limita la reducción."
+      }
+    ],
+    "needsOptimization": true,
+    "recommendedProfile": "quality"
+  },
+  "profile": "auto",
+  "lods": [
+    {
+      "level": 0,
+      "path": "lod0.glb",
+      "triangles": 20054,
+      "vertices": 19044,
+      "bytes": 698860,
+      "geometricError": 0,
+      "screenSizeThreshold": 0.56
+    },
+    {
+      "level": 1,
+      "path": "lod1.glb",
+      "triangles": 20054,
+      "vertices": 19044,
+      "bytes": 698860,
+      "geometricError": 0,
+      "screenSizeThreshold": 0.32
+    },
+    {
+      "level": 2,
+      "path": "lod2.glb",
+      "triangles": 20054,
+      "vertices": 19044,
+      "bytes": 698860,
+      "geometricError": 0,
+      "screenSizeThreshold": 0.16
+    },
+    {
+      "level": 3,
+      "path": "lod3.glb",
+      "triangles": 20054,
+      "vertices": 19044,
+      "bytes": 698860,
+      "geometricError": 0,
+      "screenSizeThreshold": 0
+    }
+  ],
+  "textures": [],
+  "recommendedInitialLod": 3,
+  "streaming": {
+    "progressive": true,
+    "memoryBudgetMb": 96,
+    "meshCompression": "none",
+    "textureCompression": "webp"
+  },
+  "bakedMaps": {
+    "normal": false,
+    "ao": false,
+    "baseColorFromVertex": false
+  }
+}

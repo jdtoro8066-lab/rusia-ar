@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "modelId": "IVAN_PRINCE",
+  "name": "IVAN_PRINCE",
+  "sourceFormat": "glb",
+  "bounds": {
+    "min": [
+      -0.4251613745727809,
+      0.052373854874429915,
+      -0.6171970733787766
+    ],
+    "max": [
+      0.4055512303587534,
+      1.6999936435009966,
+      1.537986280956849
+    ],
+    "center": [
+      -0.009805072107013757,
+      0.8761837491877132,
+      0.4603946037890362
+    ],
+    "radius": 1.4185864170602498
+  },
+  "analysis": {
+    "vertices": 1023776,
+    "triangles": 2047836,
+    "materials": 1,
+    "submeshes": 1,
+    "fileBytes": 61431768,
+    "hasUvs": false,
+    "hasNormals": true,
+    "hasTangents": false,
+    "hasVertexColors": true,
+    "hasVariedVertexColors": true,
+    "textureCount": 0,
+    "textureMaxResolution": 0,
+    "textureTotalBytes": 0,
+    "dimensions": [
+      0.8307126049315343,
+      1.6476197886265667,
+      2.155183354335626
+    ],
+    "boundingBox": {
+      "min": [
+        -0.4251613745727809,
+        0.052373854874429915,
+        -0.6171970733787766
+      ],
+      "max": [
+        0.4055512303587534,
+        1.6999936435009966,
+        1.537986280956849
+      ]
+    },
+    "hasRigging": false,
+    "hasAnimations": false,
+    "hasMorphTargets": false,
+    "estimatedRamBytes": 122861736,
+    "estimatedGpuBytes": 61429968,
+    "issues": [
+      {
+        "code": "no-uvs",
+        "severity": "info",
+        "message": "Sin UVs (Polypaint / color por vértice detectado). Se puede generar UV automática y hornear textura."
+      },
+      {
+        "code": "high-poly",
+        "severity": "warn",
+        "message": "Alta densidad (2.047.836 triángulos). Se recomienda generar LODs adaptativos."
+      }
+    ],
+    "needsOptimization": true,
+    "recommendedProfile": "balanced"
+  },
+  "profile": "auto",
+  "lods": [
+    {
+      "level": 0,
+      "path": "lod0.glb",
+      "triangles": 217994,
+      "vertices": 152719,
+      "bytes": 7911252,
+      "geometricError": 0.00157,
+      "screenSizeThreshold": 0.56
+    },
+    {
+      "level": 1,
+      "path": "lod1.glb",
+      "triangles": 57498,
+      "vertices": 53743,
+      "bytes": 2818064,
+      "geometricError": 0.00523,
+      "screenSizeThreshold": 0.32
+    },
+    {
+      "level": 2,
+      "path": "lod2.glb",
+      "triangles": 15166,
+      "vertices": 20193,
+      "bytes": 1236476,
+      "geometricError": 0.03577,
+      "screenSizeThreshold": 0.16
+    },
+    {
+      "level": 3,
+      "path": "lod3.glb",
+      "triangles": 11254,
+      "vertices": 16510,
+      "bytes": 1071676,
+      "geometricError": 0.30681,
+      "screenSizeThreshold": 0
+    }
+  ],
+  "textures": [],
+  "recommendedInitialLod": 3,
+  "streaming": {
+    "progressive": true,
+    "memoryBudgetMb": 96,
+    "meshCompression": "none",
+    "textureCompression": "webp"
+  },
+  "bakedMaps": {
+    "normal": false,
+    "ao": false,
+    "baseColorFromVertex": true
+  }
+}
