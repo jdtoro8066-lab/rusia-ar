@@ -82,6 +82,25 @@
     },
     "55aa4b06-9514-4d9f-826d-57d874a8f61a": {
       "components": {
+        "69204303-f4f1-418a-8026-a7f3fb611c12": {
+          "id": "69204303-f4f1-418a-8026-a7f3fb611c12",
+          "name": "inre-interaccion",
+          "parameters": {
+            "accion": "alternar-animacion",
+            "audio": "",
+            "mostrar": "",
+            "ocultar": "",
+            "unaVez": false,
+            "url": ""
+          }
+        },
+        "8face0ce-cdad-4853-8e85-0f94c384da7d": {
+          "id": "8face0ce-cdad-4853-8e85-0f94c384da7d",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromY": 90
+          }
+        },
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
