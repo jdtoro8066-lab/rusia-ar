@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/Captura_de_pantalla_2026-11-25_130446_luminance.png",
+  "resources": {
+    "originalImage": "Captura_de_pantalla_2026-11-25_130446_original.png",
+    "croppedImage": "Captura_de_pantalla_2026-11-25_130446_cropped.png",
+    "thumbnailImage": "Captura_de_pantalla_2026-11-25_130446_thumbnail.png",
+    "luminanceImage": "Captura_de_pantalla_2026-11-25_130446_luminance.png"
+  },
+  "name": "Captura_de_pantalla_2026-11-25_130446",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 76,
+    "left": 0,
+    "width": 720,
+    "height": 960,
+    "isRotated": true,
+    "originalWidth": 720,
+    "originalHeight": 1112
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795629970749,
+  "updated": 1795629970749
+}

@@ -1,7 +1,7 @@
 {
   "entrySpaceId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
   "inreTimeline": {
-    "duration": 9.6,
+    "duration": 11,
     "fps": 30,
     "loop": true,
     "autoplay": true,
@@ -135,6 +135,61 @@
         0.446
       ]
     },
+    "5d6d74fa-6a2c-45c8-905b-03e02ca7259a": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": true,
+            "esTextura": false,
+            "esVideo": false
+          }
+        },
+        "__inre_lod__": {
+          "id": "__inre_lod__",
+          "name": "inre-lod-adaptativo",
+          "parameters": {
+            "bias": 1,
+            "manifestUrl": "assets/models/goshei_inmortal_v1/manifest.json",
+            "manualLevel": 0,
+            "mode": "auto"
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/goshei_inmortal_v1/lod3.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "id": "5d6d74fa-6a2c-45c8-905b-03e02ca7259a",
+      "material": null,
+      "name": "goshei_inmortal_v1",
+      "order": 0.5979859480902956,
+      "parentId": "dc3e549f-de41-4781-9393-ff196db71ebf",
+      "position": [
+        -0.082,
+        0.05,
+        0.23
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        9.586,
+        9.586,
+        9.586
+      ]
+    },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
       "components": {
         "435af5b3-80ed-41b2-af85-bdf56b2e5d95": {
@@ -237,6 +292,78 @@
         1
       ]
     },
+    "9ef5db20-3e9c-4ba7-b1d9-cc1aba588db0": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.682,
+            "demora": 0.08,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        },
+        "c257d9c1-6b1c-4760-9aa4-b192f2534b25": {
+          "id": "c257d9c1-6b1c-4760-9aa4-b192f2534b25",
+          "name": "inre-chroma",
+          "parameters": {
+            "color": "#000000",
+            "enabled": true,
+            "feather": 1.5,
+            "similarity": 0.28,
+            "smoothness": 0.14,
+            "spill": 0.65
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
+      },
+      "id": "9ef5db20-3e9c-4ba7-b1d9-cc1aba588db0",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Textura_animada_para_realidad_au__a794f7b4_1080p.mp4"
+        },
+        "inreChroma": {
+          "enabled": true,
+          "color": "#000000",
+          "similarity": 0.28,
+          "smoothness": 0.14,
+          "feather": 1.5,
+          "spill": 0.65
+        }
+      },
+      "name": "Textura_animada_para_realidad_au__a794f7b4_1080p",
+      "order": 2.5979859480902956,
+      "parentId": "dc3e549f-de41-4781-9393-ff196db71ebf",
+      "position": [
+        0,
+        0.28800000000000003,
+        0.3160000000000001
+      ],
+      "rotation": [
+        0.49709074098762324,
+        0.5028924290784021,
+        -0.5028924290784021,
+        0.49709074098762324
+      ],
+      "scale": [
+        1.027,
+        1.027,
+        1.027
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
     "ac969131-2a39-4a22-ae74-ad5b7975d571": {
       "camera": {
         "type": "perspective",
@@ -259,7 +386,7 @@
       "order": 0.5,
       "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
       "position": [
-        0,
+        -0.033,
         0,
         0
       ],
@@ -285,6 +412,34 @@
       "material": null,
       "name": "Marcador · Captura_de_pantalla_2026-11-25_043243",
       "order": 6.5,
+      "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "dc3e549f-de41-4781-9393-ff196db71ebf": {
+      "components": {},
+      "geometry": null,
+      "id": "dc3e549f-de41-4781-9393-ff196db71ebf",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-25_130446"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-25_130446",
+      "order": 7.5,
       "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
       "position": [
         0,
