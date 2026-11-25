@@ -119,15 +119,15 @@
       "order": 2.0083811866551615,
       "parentId": "c961b72a-dc57-4722-bdb7-e4f8273653cd",
       "position": [
-        -0.016,
+        -0.15,
         -0.416,
-        0.302
+        0.2
       ],
       "rotation": [
-        -1.154298316460816e-16,
-        -0.045245986411667445,
-        1.1421707922242266e-16,
-        0.9989758759417744
+        -2.8358936158956886e-17,
+        0.7071067811865475,
+        4.375811128888644e-17,
+        0.7071067811865476
       ],
       "scale": [
         0.425,
@@ -137,6 +137,18 @@
     },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
       "components": {
+        "435af5b3-80ed-41b2-af85-bdf56b2e5d95": {
+          "id": "435af5b3-80ed-41b2-af85-bdf56b2e5d95",
+          "name": "inre-chroma",
+          "parameters": {
+            "color": "#01609e",
+            "enabled": true,
+            "feather": 1.5,
+            "similarity": 0.28,
+            "smoothness": 0.14,
+            "spill": 0.65
+          }
+        },
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
@@ -147,24 +159,12 @@
             "esTextura": true,
             "esVideo": true
           }
-        },
-        "f6d99e41-1ef1-4394-8c5b-a85ff3353543": {
-          "id": "f6d99e41-1ef1-4394-8c5b-a85ff3353543",
-          "name": "inre-chroma",
-          "parameters": {
-            "color": "#00b140",
-            "enabled": true,
-            "feather": 1.5,
-            "similarity": 0.28,
-            "smoothness": 0.14,
-            "spill": 0.65
-          }
         }
       },
       "geometry": {
         "type": "plane",
-        "width": 2,
-        "height": 2
+        "width": 1.46,
+        "height": 1.91
       },
       "id": "7f3e55f1-decc-4b28-8396-0f069325ec81",
       "material": {
@@ -176,12 +176,13 @@
         },
         "inreChroma": {
           "enabled": true,
-          "color": "#00b140",
+          "color": "#01609e",
           "similarity": 0.28,
           "smoothness": 0.14,
           "feather": 1.5,
           "spill": 0.65
-        }
+        },
+        "alphaTest": 0
       },
       "name": "t1",
       "order": 3.0083811866551615,
@@ -202,6 +203,7 @@
         0.62,
         1.333
       ],
+      "shadow": null,
       "videoControls": {
         "loop": true,
         "paused": false
