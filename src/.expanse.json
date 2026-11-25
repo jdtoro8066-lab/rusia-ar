@@ -86,7 +86,7 @@
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
           "parameters": {
-            "cubo": 0.24,
+            "cubo": 0.324,
             "demora": 0,
             "esGltf": true,
             "esTextura": false,
@@ -120,7 +120,7 @@
       "parentId": "c961b72a-dc57-4722-bdb7-e4f8273653cd",
       "position": [
         -0.16,
-        -0.21,
+        -0.416,
         0.302
       ],
       "rotation": [
@@ -130,9 +130,9 @@
         0.7084556703200254
       ],
       "scale": [
-        0.298,
-        0.313,
-        0.313
+        0.474,
+        0.498,
+        0.498
       ]
     },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
