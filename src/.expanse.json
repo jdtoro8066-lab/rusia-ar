@@ -8,6 +8,34 @@
     "items": []
   },
   "objects": {
+    "17b278a5-ae4b-485c-8456-525dbb4ff24a": {
+      "components": {},
+      "geometry": null,
+      "id": "17b278a5-ae4b-485c-8456-525dbb4ff24a",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-25_190444"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-25_190444",
+      "order": 8.5,
+      "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
     "292ac6a4-739f-42fa-aef0-505ff6774670": {
       "components": {
         "15a45e28-8e66-4773-875a-9e46b05a95f3": {
@@ -152,6 +180,61 @@
         "paused": false
       }
     },
+    "45c8a662-a9a3-4bb6-a682-0e1d9bb9b86c": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": true,
+            "esTextura": false,
+            "esVideo": false
+          }
+        },
+        "__inre_lod__": {
+          "id": "__inre_lod__",
+          "name": "inre-lod-adaptativo",
+          "parameters": {
+            "bias": 1,
+            "manifestUrl": "assets/models/baba_yaga/manifest.json",
+            "manualLevel": 0,
+            "mode": "auto"
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/baba_yaga/lod3.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "id": "45c8a662-a9a3-4bb6-a682-0e1d9bb9b86c",
+      "material": null,
+      "name": "baba_yaga",
+      "order": 0.020186831171460584,
+      "parentId": "17b278a5-ae4b-485c-8456-525dbb4ff24a",
+      "position": [
+        0.02,
+        0.096,
+        0.136
+      ],
+      "rotation": [
+        -0.07420727944155647,
+        0,
+        0,
+        0.9972428388701935
+      ],
+      "scale": [
+        24.826,
+        24.826,
+        24.826
+      ]
+    },
     "55aa4b06-9514-4d9f-826d-57d874a8f61a": {
       "components": {
         "__inre_aparicion__": {
@@ -261,6 +344,79 @@
         6.344,
         6.344
       ]
+    },
+    "6396865f-2982-4fec-a625-f4d3f9a4626d": {
+      "components": {
+        "492a5572-f9cb-4921-9d7e-b8afb545e2a9": {
+          "id": "492a5572-f9cb-4921-9d7e-b8afb545e2a9",
+          "name": "inre-chroma",
+          "parameters": {
+            "color": "#00b140",
+            "enabled": true,
+            "feather": 1.5,
+            "similarity": 0.12,
+            "smoothness": 0.14,
+            "spill": 0.65
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.24,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
+      },
+      "id": "6396865f-2982-4fec-a625-f4d3f9a4626d",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/122101297_1795653082678082.mp4"
+        },
+        "inreChroma": {
+          "enabled": true,
+          "color": "#00b140",
+          "similarity": 0.12,
+          "smoothness": 0.14,
+          "feather": 1.5,
+          "spill": 0.65
+        },
+        "alphaTest": 0
+      },
+      "name": "122101297_1795653082678082",
+      "order": 0.6367484133088108,
+      "parentId": "45c8a662-a9a3-4bb6-a682-0e1d9bb9b86c",
+      "position": [
+        -0.0008056070248932571,
+        -0.0028015983282370215,
+        -0.0035961246606070786
+      ],
+      "rotation": [
+        0.11229865318260585,
+        -0.10260685082912357,
+        0.7003898473642314,
+        0.6973628240488676
+      ],
+      "scale": [
+        0.04471118988157577,
+        0.040441472649641506,
+        0.042576331265608634
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
     },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
       "components": {

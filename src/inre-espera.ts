@@ -6,7 +6,7 @@
  * lienzo. Si algo falla dentro, se retira sola para no dejar la pantalla tapada.
  */
 
-const MARCADORES = ["Captura_de_pantalla_2026-11-25_043243","Captura_de_pantalla_2026-11-25_130446"]
+const MARCADORES = ["Captura_de_pantalla_2026-11-25_043243","Captura_de_pantalla_2026-11-25_130446","Captura_de_pantalla_2026-11-25_190444"]
 
 /**
  * Cuenta las descargas en curso de archivos del proyecto (assets/ o blobs) para
