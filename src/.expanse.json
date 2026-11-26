@@ -108,6 +108,34 @@
         "paused": false
       }
     },
+    "2b11de16-a21a-4af6-83f1-2f74455e44eb": {
+      "components": {},
+      "geometry": null,
+      "id": "2b11de16-a21a-4af6-83f1-2f74455e44eb",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-26_081124"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-26_081124",
+      "order": 11.5,
+      "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
     "3a292826-0947-4793-8ede-79b958562847": {
       "components": {
         "46ff6db7-e0e3-4b23-84c7-9e13e4534c5e": {
@@ -497,6 +525,61 @@
         2.844
       ]
     },
+    "7a32d53f-ff0e-4c8a-81de-d3a2daacafb5": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.24,
+            "demora": 0,
+            "esGltf": true,
+            "esTextura": false,
+            "esVideo": false
+          }
+        },
+        "__inre_lod__": {
+          "id": "__inre_lod__",
+          "name": "inre-lod-adaptativo",
+          "parameters": {
+            "bias": 1,
+            "manifestUrl": "assets/models/ave/manifest.json",
+            "manualLevel": 0,
+            "mode": "auto"
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/ave/lod3.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "id": "7a32d53f-ff0e-4c8a-81de-d3a2daacafb5",
+      "material": null,
+      "name": "ave",
+      "order": 0.16571651714190372,
+      "parentId": "2b11de16-a21a-4af6-83f1-2f74455e44eb",
+      "position": [
+        0,
+        0,
+        0.214
+      ],
+      "rotation": [
+        0.23085218172355038,
+        0.2744802313407365,
+        0.06806153851739094,
+        0.9309863048247585
+      ],
+      "scale": [
+        0.027,
+        0.027,
+        0.027
+      ]
+    },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
       "components": {
         "435af5b3-80ed-41b2-af85-bdf56b2e5d95": {
@@ -586,6 +669,34 @@
         10,
         5,
         5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a2fb7550-1b56-486a-9397-609faadbb11f": {
+      "components": {},
+      "geometry": null,
+      "id": "a2fb7550-1b56-486a-9397-609faadbb11f",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-26_080725"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-26_080725",
+      "order": 10.5,
+      "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+      "position": [
+        0,
+        0,
+        0
       ],
       "rotation": [
         0,
@@ -719,6 +830,61 @@
         1,
         1,
         1
+      ]
+    },
+    "e6182f88-0b95-41e0-9ddd-79403cc9de5a": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.24,
+            "demora": 0,
+            "esGltf": true,
+            "esTextura": false,
+            "esVideo": false
+          }
+        },
+        "__inre_lod__": {
+          "id": "__inre_lod__",
+          "name": "inre-lod-adaptativo",
+          "parameters": {
+            "bias": 1,
+            "manifestUrl": "assets/models/lobobon/manifest.json",
+            "manualLevel": 0,
+            "mode": "auto"
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/lobobon/lod3.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "id": "e6182f88-0b95-41e0-9ddd-79403cc9de5a",
+      "material": null,
+      "name": "lobobon",
+      "order": 0.31179113615438003,
+      "parentId": "a2fb7550-1b56-486a-9397-609faadbb11f",
+      "position": [
+        0,
+        0.055,
+        0.196
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.038,
+        0.038,
+        0.038
       ]
     },
     "fa528e7b-1ba8-4a74-a8c0-285d33156bcc": {
