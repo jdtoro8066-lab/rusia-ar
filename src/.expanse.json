@@ -182,6 +182,18 @@
     },
     "45c8a662-a9a3-4bb6-a682-0e1d9bb9b86c": {
       "components": {
+        "67779582-2240-4503-b92e-cdb943a62a96": {
+          "id": "67779582-2240-4503-b92e-cdb943a62a96",
+          "name": "inre-interaccion",
+          "parameters": {
+            "accion": "nada",
+            "audio": "",
+            "mostrar": "",
+            "ocultar": "",
+            "unaVez": false,
+            "url": ""
+          }
+        },
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
@@ -201,6 +213,14 @@
             "manifestUrl": "assets/models/baba_yaga/manifest.json",
             "manualLevel": 0,
             "mode": "auto"
+          }
+        },
+        "e5a2634e-49c2-4e12-bf77-e1d22b0e0f86": {
+          "id": "e5a2634e-49c2-4e12-bf77-e1d22b0e0f86",
+          "name": "rotate-animation",
+          "parameters": {
+            "autoFrom": true,
+            "fromZ": 180
           }
         }
       },
@@ -233,7 +253,11 @@
         24.826,
         24.826,
         24.826
-      ]
+      ],
+      "shadow": {
+        "receiveShadow": true,
+        "castShadow": true
+      }
     },
     "55aa4b06-9514-4d9f-826d-57d874a8f61a": {
       "components": {
