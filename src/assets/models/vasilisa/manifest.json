@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "modelId": "vasilisa",
+  "name": "vasilisa",
+  "sourceFormat": "glb",
+  "bounds": {
+    "min": [
+      -0.07143410452499221,
+      -0.07163875368598036,
+      -0.05587720546334345
+    ],
+    "max": [
+      0.06690399884767828,
+      0.14129286910012645,
+      0.0465858638147679
+    ],
+    "center": [
+      -0.002265052838656967,
+      0.03482705770707305,
+      -0.004645670824287778
+    ],
+    "radius": 0.1369087172105593
+  },
+  "analysis": {
+    "vertices": 1046721,
+    "triangles": 1989796,
+    "materials": 1,
+    "submeshes": 1,
+    "fileBytes": 69935008,
+    "hasUvs": true,
+    "hasNormals": true,
+    "hasTangents": false,
+    "hasVertexColors": true,
+    "hasVariedVertexColors": true,
+    "textureCount": 0,
+    "textureMaxResolution": 0,
+    "textureTotalBytes": 0,
+    "dimensions": [
+      0.1383381033726705,
+      0.2129316227861068,
+      0.10246306927811136
+    ],
+    "boundingBox": {
+      "min": [
+        -0.07143410452499221,
+        -0.07163875368598036,
+        -0.05587720546334345
+      ],
+      "max": [
+        0.06690399884767828,
+        0.14129286910012645,
+        0.0465858638147679
+      ]
+    },
+    "hasRigging": false,
+    "hasAnimations": false,
+    "hasMorphTargets": false,
+    "estimatedRamBytes": 139868284,
+    "estimatedGpuBytes": 69933276,
+    "issues": [
+      {
+        "code": "high-poly",
+        "severity": "warn",
+        "message": "Alta densidad (1.989.796 triángulos). Se recomienda generar LODs adaptativos."
+      }
+    ],
+    "needsOptimization": true,
+    "recommendedProfile": "balanced"
+  },
+  "profile": "auto",
+  "lods": [
+    {
+      "level": 0,
+      "path": "lod0.glb",
+      "triangles": 217994,
+      "vertices": 135925,
+      "bytes": 7510936,
+      "geometricError": 0.00048,
+      "screenSizeThreshold": 0.56
+    },
+    {
+      "level": 1,
+      "path": "lod1.glb",
+      "triangles": 57498,
+      "vertices": 41833,
+      "bytes": 2197668,
+      "geometricError": 0.00225,
+      "screenSizeThreshold": 0.32
+    },
+    {
+      "level": 2,
+      "path": "lod2.glb",
+      "triangles": 15166,
+      "vertices": 13274,
+      "bytes": 661556,
+      "geometricError": 0.00943,
+      "screenSizeThreshold": 0.16
+    },
+    {
+      "level": 3,
+      "path": "lod3.glb",
+      "triangles": 4000,
+      "vertices": 5064,
+      "bytes": 232000,
+      "geometricError": 0.0513,
+      "screenSizeThreshold": 0
+    }
+  ],
+  "textures": [],
+  "recommendedInitialLod": 3,
+  "streaming": {
+    "progressive": true,
+    "memoryBudgetMb": 96,
+    "meshCompression": "none",
+    "textureCompression": "webp"
+  },
+  "bakedMaps": {
+    "normal": false,
+    "ao": false,
+    "baseColorFromVertex": false
+  }
+}

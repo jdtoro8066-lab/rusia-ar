@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/Marco_geometrico_crema_sobre_borgona_luminance.png",
+  "resources": {
+    "originalImage": "Marco_geometrico_crema_sobre_borgona_original.png",
+    "croppedImage": "Marco_geometrico_crema_sobre_borgona_cropped.png",
+    "thumbnailImage": "Marco_geometrico_crema_sobre_borgona_thumbnail.png",
+    "luminanceImage": "Marco_geometrico_crema_sobre_borgona_luminance.png"
+  },
+  "name": "Marco_geometrico_crema_sobre_borgona",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 1086,
+    "height": 1448,
+    "isRotated": false,
+    "originalWidth": 1086,
+    "originalHeight": 1448
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795670412805,
+  "updated": 1795670412805
+}

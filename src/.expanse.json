@@ -442,6 +442,61 @@
         "paused": false
       }
     },
+    "6903ef0b-f92a-46ee-bf89-60b757774b4b": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": true,
+            "esTextura": false,
+            "esVideo": false
+          }
+        },
+        "__inre_lod__": {
+          "id": "__inre_lod__",
+          "name": "inre-lod-adaptativo",
+          "parameters": {
+            "bias": 1,
+            "manifestUrl": "assets/models/vasilisa/manifest.json",
+            "manualLevel": 0,
+            "mode": "auto"
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/vasilisa/lod3.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "id": "6903ef0b-f92a-46ee-bf89-60b757774b4b",
+      "material": null,
+      "name": "vasilisa",
+      "order": 0.672479937437487,
+      "parentId": "d1a8fa6c-5df8-4923-b4fd-671c2db9b426",
+      "position": [
+        0.084,
+        0,
+        0.206
+      ],
+      "rotation": [
+        0.6442994526148954,
+        -0.2913386609431474,
+        -0.2913386609431473,
+        0.6442994526148954
+      ],
+      "scale": [
+        2.844,
+        2.844,
+        2.844
+      ]
+    },
     "7f3e55f1-decc-4b28-8396-0f069325ec81": {
       "components": {
         "435af5b3-80ed-41b2-af85-bdf56b2e5d95": {
@@ -592,6 +647,34 @@
       "material": null,
       "name": "Marcador · Captura_de_pantalla_2026-11-25_043243",
       "order": 6.5,
+      "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "d1a8fa6c-5df8-4923-b4fd-671c2db9b426": {
+      "components": {},
+      "geometry": null,
+      "id": "d1a8fa6c-5df8-4923-b4fd-671c2db9b426",
+      "imageTarget": {
+        "name": "Captura_de_pantalla_2026-11-25_194459"
+      },
+      "material": null,
+      "name": "Marcador · Captura_de_pantalla_2026-11-25_194459",
+      "order": 9.5,
       "parentId": "937c47e5-1433-46b8-9dc3-87c69d4beda9",
       "position": [
         0,
